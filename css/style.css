@@ -1,0 +1,80 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,700italic,900,900italic&display=swap);
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   max-width: 1025px;
+   margin: 0 auto;
+   text-align: justify;
+   line-height: 1.5;
+}
+
+p {
+   padding: 10px 0;
+}
+
+.img {
+   display: block;
+   text-align: center;
+}
+
+img {
+   border-radius: 50%;
+}
+
+.text-1 {
+   color: brown;
+   text-decoration: underline;
+   font-weight: 800;
+   font-style: italic;
+}
+
+.text-2 {
+   color: aqua;
+   text-shadow: 1px 1px 1px #081933;
+   font-family: Roboto sans-serif;
+   font-weight: 900;
+   font-style: italic;
+}
+
+.text-3 {
+   text-transform: capitalize;
+   font-family: Roboto sans-serif;
+   font-weight: 700;
+   font-style: italic;
+   font-size: 30px;
+   opacity: 0.5;
+}
+
+ul li {
+   color: blue;
+   border: 2px solid #081933;
+   display: inline-block;
+   width: 33%;
+   padding: 3px;
+}
+
+.text-4 {
+   line-height: 2;
+   color: red;
+   padding: 50px;
+}
+
+.text-5 {
+   color: green;
+   max-width: 30%;
+   text-align: justify;
+   text-shadow: 2px 1px 3px rgb(93, 243, 101);
+}
+
+.text-6 {
+   color: blueviolet;
+   font-size: 30px;
+}
+
+.text-7 {
+   overflow: auto;
+   height: 100px;
+   font-size: 20px;
+}
